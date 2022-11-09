@@ -2,11 +2,13 @@
     --smokyBlackColor: #121113;
     --babyPowderColor: #F7F7F2;
     --paleSpringBudColor: #E4E6C3;
+    --charlestonGreenColor: #222725;
 }
 
 *, ::before, ::after {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -16,8 +18,28 @@ html {
 
 body {
     font-family: "Manrope", sans-serif;
+
     background-color: var(--smokyBlackColor);
     color: var(--babyPowderColor);
+}
+
+#navbar {
+    font-size: 1.5rem;
+
+    width: 100%;
+
+    padding: 16px 24px;
+
+    background-color: var(--charlestonGreenColor);
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+
+    position: fixed;
+    top: 0;
+
+    box-shadow: 2px 2px 3px 0 black;
 }
 
 #welcome-section {
