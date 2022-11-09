@@ -47,12 +47,32 @@ a:hover {
 
     position: fixed;
     top: 0;
+    z-index: 50;
 
     box-shadow: 2px 2px 3px 0 black;
 }
 
 #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        90deg,
+        var(--smokyBlackColor),
+        #252327
+    );
+
     height: 100vh;
+}
+
+#welcome-section > p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 #contact-details {
