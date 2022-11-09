@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Manrope", sans-serif;
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+#contact-details {
+    height: 100vh;
 }
