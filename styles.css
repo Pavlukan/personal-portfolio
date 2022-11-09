@@ -23,6 +23,15 @@ body {
     color: var(--babyPowderColor);
 }
 
+a {
+    color: var(--babyPowderColor);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8f8f8f; 
+}
+
 #navbar {
     font-size: 1.5rem;
 
