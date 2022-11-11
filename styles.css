@@ -1,7 +1,7 @@
 :root {
     --smokyBlackColor: #121113;
     --babyPowderColor: #F7F7F2;
-    --paleSpringBudColor: #E4E6C3;
+    --softRedColor: #E42323;
     --charlestonGreenColor: #222725;
     --artichokeColor: #899878;
 }
@@ -13,6 +13,10 @@
     padding: 0;
 
     box-sizing: border-box;
+}
+
+::before, ::after {
+    transition: 0.4s color ease-in-out;
 }
 
 html {
@@ -41,10 +45,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #8f8f8f; 
-}
-
 /* NAVBAR STYLING */
 
 #navbar {
@@ -65,6 +65,10 @@ a:hover {
     z-index: 50;
 
     box-shadow: 2px 2px 3px 0 black;
+}
+
+#navbar a:hover {
+    color: #8f8f8f; 
 }
 
 /* WELCOME SECTION STYLING */
@@ -112,6 +116,13 @@ a:hover {
     background-color: var(--charlestonGreenColor);
 }
 
+.project-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
 .project-title {
     text-align: center;
     padding: 16px;
@@ -120,11 +131,26 @@ a:hover {
     border-radius: 0 0 8px 8px;
 }
 
-.project-image {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
+.project-title::before, .project-title::after {
+    color: var(--charlestonGreenColor);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.project-title::before {
+    content: "<";
+}
+
+.project-title::after {
+    content: " />";
+}
+
+.project-link:hover .project-title::before {
+    color: var(--softRedColor);
+}
+
+.project-link:hover .project-title::after {
+    color: var(--softRedColor);
 }
 
 /* CONTACT DETAILS STYLING */
