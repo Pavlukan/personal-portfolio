@@ -3,7 +3,7 @@
     --babyPowderColor: #F7F7F2;
     --softRedColor: #E42323;
     --charlestonGreenColor: #222725;
-    --artichokeColor: #899878;
+    --tomThumbColor: #465536;
 }
 
 /* GENERAL STYLING */
@@ -96,7 +96,7 @@ a {
 
 #projects {
     padding: 48px;
-    background-color: var(--artichokeColor);
+    background-color: var(--tomThumbColor);
     color: var(--smokyBlackColor);
 }
 
