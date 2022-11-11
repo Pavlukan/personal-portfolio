@@ -6,6 +6,8 @@
     --artichokeColor: #899878;
 }
 
+/* GENERAL STYLING */
+
 *, ::before, ::after {
     margin: 0;
     padding: 0;
@@ -43,6 +45,8 @@ a:hover {
     color: #8f8f8f; 
 }
 
+/* NAVBAR STYLING */
+
 #navbar {
     font-size: 1.5rem;
 
@@ -63,6 +67,8 @@ a:hover {
     box-shadow: 2px 2px 3px 0 black;
 }
 
+/* WELCOME SECTION STYLING */
+
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -81,6 +87,8 @@ a:hover {
 #welcome-section > p {
     font-size: 1.2rem;
 }
+
+/* PROJECTS SECTION STYLING */
 
 #projects {
     padding: 48px;
@@ -118,6 +126,8 @@ a:hover {
     object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
+
+/* CONTACT DETAILS STYLING */
 
 #contact-details {
     height: 100vh;
