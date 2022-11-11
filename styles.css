@@ -101,6 +101,11 @@ a {
     color: var(--smokyBlackColor);
 }
 
+#projects h2 {
+    color: var(--babyPowderColor);
+    text-decoration: underline;
+}
+
 .project-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
