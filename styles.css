@@ -216,3 +216,35 @@ a {
 .contact-links .contact-link:hover {
     transform: translateY(10px);
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.1rem;
+    }
+
+    #navbar {
+        justify-content: center;
+    }
+
+    #welcome-section, #contact-details {
+        padding: 24px;
+    }
+
+    #welcome-section {
+        text-align: center;
+    }
+
+    .contact-link {
+        text-align: center;
+    }
+}
