@@ -163,4 +163,27 @@ a {
 
 #contact-details {
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-details h2 {
+    font-size: 2.4rem;
+}
+
+.contact-links {
+    display: flex;
+    gap: 24px;
+    font-size: 1.6rem;
+}
+
+.contact-link {
+    transition: 0.4s ease-in-out;
+}
+
+.contact-links .contact-link:hover {
+    transform: translateY(10px);
 }
