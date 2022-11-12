@@ -99,6 +99,7 @@ a {
     padding: 48px;
     background-color: var(--tomThumbColor);
     color: var(--smokyBlackColor);
+    text-align: center;
 }
 
 #projects h2 {
@@ -111,6 +112,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
     justify-items: center;
+    margin-bottom: 48px;
 }
 
 .project-tile {
@@ -157,6 +159,33 @@ a {
 
 .project-link:hover .project-title::after {
     color: var(--softRedColor);
+}
+
+#profile-link {
+    padding: 12px 24px;
+
+    background-color: var(--charlestonGreenColor);
+    color: var(--babyPowderColor);
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    border-radius: 8px;
+
+    transition: color 0.2s ease-in;
+}
+
+#profile-link:hover {
+    color: var(--softRedColor);
+}
+
+#profile-link > i {
+    margin-left: 6px;
+    transition: 0.2s ease-in;
+}
+
+#profile-link:hover > i {
+    transform: translateX(4px);
 }
 
 /* CONTACT DETAILS STYLING */
